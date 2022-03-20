@@ -10,6 +10,11 @@ namespace tpmodul5_1302204090
 	{
 		static void Main(string[] args)
 		{
+
+			SayaTubeVideo video = new SayaTubeVideo("Tutorial Design By Contract - Ahmad Fathan Hanif");
+			video.IncreasePlayCount(15);
+			video.PrintVideoDetails();
+
 		}
 	}
 }
